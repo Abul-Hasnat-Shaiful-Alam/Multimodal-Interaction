@@ -1,0 +1,252 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY Ontology1361806230149 "http://www.semanticweb.org/ontologies/2013/1/Ontology1361806230149.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2013/1/Ontology1361806230149.owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2013/1/Ontology1361806230149.owl"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:Ontology1361806230149="http://www.semanticweb.org/ontologies/2013/1/Ontology1361806230149.owl#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2013/1/Ontology1361806230149.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/1/Ontology1361806230149.owl#hasOutputModality -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1361806230149;hasOutputModality">
+        <rdfs:domain rdf:resource="&Ontology1361806230149;Environment"/>
+        <rdfs:range rdf:resource="&Ontology1361806230149;Output"/>
+        <rdfs:domain rdf:resource="&Ontology1361806230149;UserProfile"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/1/Ontology1361806230149.owl#Blind -->
+
+    <owl:Class rdf:about="&Ontology1361806230149;Blind">
+        <rdfs:subClassOf rdf:resource="&Ontology1361806230149;UserProfile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/1/Ontology1361806230149.owl#Deaf -->
+
+    <owl:Class rdf:about="&Ontology1361806230149;Deaf">
+        <rdfs:subClassOf rdf:resource="&Ontology1361806230149;UserProfile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/1/Ontology1361806230149.owl#Environment -->
+
+    <owl:Class rdf:about="&Ontology1361806230149;Environment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/1/Ontology1361806230149.owl#LessNoisy -->
+
+    <owl:Class rdf:about="&Ontology1361806230149;LessNoisy">
+        <rdfs:subClassOf rdf:resource="&Ontology1361806230149;Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/1/Ontology1361806230149.owl#Normal -->
+
+    <owl:Class rdf:about="&Ontology1361806230149;Normal">
+        <rdfs:subClassOf rdf:resource="&Ontology1361806230149;UserProfile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/1/Ontology1361806230149.owl#Output -->
+
+    <owl:Class rdf:about="&Ontology1361806230149;Output"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/1/Ontology1361806230149.owl#Quiet -->
+
+    <owl:Class rdf:about="&Ontology1361806230149;Quiet">
+        <rdfs:subClassOf rdf:resource="&Ontology1361806230149;Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/1/Ontology1361806230149.owl#Speech -->
+
+    <owl:Class rdf:about="&Ontology1361806230149;Speech">
+        <rdfs:subClassOf rdf:resource="&Ontology1361806230149;Output"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/1/Ontology1361806230149.owl#UserProfile -->
+
+    <owl:Class rdf:about="&Ontology1361806230149;UserProfile"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/1/Ontology1361806230149.owl#VeryNoisy -->
+
+    <owl:Class rdf:about="&Ontology1361806230149;VeryNoisy">
+        <rdfs:subClassOf rdf:resource="&Ontology1361806230149;Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/1/Ontology1361806230149.owl#Vibration -->
+
+    <owl:Class rdf:about="&Ontology1361806230149;Vibration">
+        <rdfs:subClassOf rdf:resource="&Ontology1361806230149;Output"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/1/Ontology1361806230149.owl#Visual -->
+
+    <owl:Class rdf:about="&Ontology1361806230149;Visual">
+        <rdfs:subClassOf rdf:resource="&Ontology1361806230149;Output"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/1/Ontology1361806230149.owl#Blind_User -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1361806230149;Blind_User">
+        <rdf:type rdf:resource="&Ontology1361806230149;Blind"/>
+        <hasOutputModality rdf:resource="&Ontology1361806230149;LoudSpeech_Output"/>
+        <hasOutputModality rdf:resource="&Ontology1361806230149;NormalSpeech_Output"/>
+        <hasOutputModality rdf:resource="&Ontology1361806230149;Vibration_Output"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/1/Ontology1361806230149.owl#Deaf_User -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1361806230149;Deaf_User">
+        <rdf:type rdf:resource="&Ontology1361806230149;Deaf"/>
+        <hasOutputModality rdf:resource="&Ontology1361806230149;HighlightedText_Output"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/1/Ontology1361806230149.owl#HighlightedText_Output -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1361806230149;HighlightedText_Output">
+        <rdf:type rdf:resource="&Ontology1361806230149;Visual"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/1/Ontology1361806230149.owl#LessNoisy_Env -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1361806230149;LessNoisy_Env">
+        <rdf:type rdf:resource="&Ontology1361806230149;LessNoisy"/>
+        <hasOutputModality rdf:resource="&Ontology1361806230149;HighlightedText_Output"/>
+        <hasOutputModality rdf:resource="&Ontology1361806230149;NormalSpeech_Output"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/1/Ontology1361806230149.owl#LoudSpeech_Output -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1361806230149;LoudSpeech_Output">
+        <rdf:type rdf:resource="&Ontology1361806230149;Speech"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/1/Ontology1361806230149.owl#NormalSpeech_Output -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1361806230149;NormalSpeech_Output">
+        <rdf:type rdf:resource="&Ontology1361806230149;Speech"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/1/Ontology1361806230149.owl#Normal_User -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1361806230149;Normal_User">
+        <rdf:type rdf:resource="&Ontology1361806230149;Normal"/>
+        <hasOutputModality rdf:resource="&Ontology1361806230149;HighlightedText_Output"/>
+        <hasOutputModality rdf:resource="&Ontology1361806230149;LoudSpeech_Output"/>
+        <hasOutputModality rdf:resource="&Ontology1361806230149;NormalSpeech_Output"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/1/Ontology1361806230149.owl#Quiet_Env -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1361806230149;Quiet_Env">
+        <rdf:type rdf:resource="&Ontology1361806230149;Quiet"/>
+        <hasOutputModality rdf:resource="&Ontology1361806230149;HighlightedText_Output"/>
+        <hasOutputModality rdf:resource="&Ontology1361806230149;Vibration_Output"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/1/Ontology1361806230149.owl#VeryNosiy_Env -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1361806230149;VeryNosiy_Env">
+        <rdf:type rdf:resource="&Ontology1361806230149;VeryNoisy"/>
+        <hasOutputModality rdf:resource="&Ontology1361806230149;HighlightedText_Output"/>
+        <hasOutputModality rdf:resource="&Ontology1361806230149;LoudSpeech_Output"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/1/Ontology1361806230149.owl#Vibration_Output -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1361806230149;Vibration_Output">
+        <rdf:type rdf:resource="&Ontology1361806230149;Vibration"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+

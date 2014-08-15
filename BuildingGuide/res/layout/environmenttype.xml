@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content">
+<RadioGroup android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:orientation="vertical"
+android:id="@+id/environment_type">
+<RadioButton android:id="@+id/very_noisy"
+android:layout_width="wrap_content" android:layout_height="wrap_content"
+android:text="@string/verynoisy" >
+</RadioButton>
+<RadioButton android:id="@+id/less_noisy" android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:checked="true" android:text="@string/lessnoisy"></RadioButton>
+<RadioButton android:id="@+id/quiet" android:layout_width="wrap_content"
+ 
+android:layout_height="wrap_content" android:text="@string/quiet"></RadioButton>
+ 
+</RadioGroup>
+</LinearLayout>
